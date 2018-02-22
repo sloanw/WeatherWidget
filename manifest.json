@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+
+  "name": "Weather Widget",
+  "description": "Lightweight weather",
+  "version": "1.0.1",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+
+  "options_ui": {
+    "page": "options.html",
+    "chrome_style": true
+  },
+
+  "permissions": [
+    "https://api.forecast.io/forecast/",
+    "https://api.darksky.net/forecast/",
+    "geolocation",
+    "storage"
+  ]
+}

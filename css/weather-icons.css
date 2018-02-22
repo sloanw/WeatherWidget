@@ -1,0 +1,97 @@
+/*!
+ *	Weather Icons 2.0
+ *	Updated August 1, 2015
+ *	Weather themed icons for Bootstrap
+ *	Author - Erik Flowers - erik@helloerik.com
+ *	Email: erik@helloerik.com
+ *	Twitter: http://twitter.com/Erik_UX
+ *	------------------------------------------------------------------------------
+ *	Maintained at http://erikflowers.github.io/weather-icons
+ *
+ *	License
+ *	------------------------------------------------------------------------------
+ *	- Font licensed under SIL OFL 1.1 -
+ *		http://scripts.sil.org/OFL
+ *	- CSS, SCSS and LESS are licensed under MIT License -
+ *		http://opensource.org/licenses/mit-license.html
+ *	- Documentation licensed under CC BY 3.0 -
+ *		http://creativecommons.org/licenses/by/3.0/
+ *	- Inspired by and works great as a companion with Font Awesome
+ *		"Font Awesome by Dave Gandy - http://fontawesome.io"
+ */
+
+@font-face {
+	font-family: 'weathericons';
+	src: url('../font/weathericons-regular-webfont.eot');
+	src: url('../font/weathericons-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../font/weathericons-regular-webfont.woff2') format('woff2'), url('../font/weathericons-regular-webfont.woff') format('woff'), url('../font/weathericons-regular-webfont.ttf') format('truetype'), url('../font/weathericons-regular-webfont.svg#weather_iconsregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+.wi {
+	font-family: 'weathericons';
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+    padding-top: 0.25em;
+    /*font-size: 40pt;*/
+	font-size: 35pt;
+	-webkit-font-smoothing: antialiased;
+}
+.wi-fw {
+	text-align: center;
+	width: 1.4em;
+}
+.clear-day:before {
+	content: "\f00d";
+}
+.day-sunny:before {
+	content: "\f00d";
+}
+.clear-night:before {
+	content: "\f02e";
+}
+.night-clear:before {
+	content: "\f02e";
+}
+.rain:before {
+	content: "\f019";
+}
+.snow:before {
+	content: "\f01b";
+}
+.sleet:before {
+	content: "\f0b5";
+}
+.wind:before {
+	content: "\f050";
+}
+.strong-wind:before {
+	content: "\f050";
+}
+.fog:before {
+	content: "\f014";
+}
+.cloudy:before {
+	content: "\f013";
+}
+.partly-cloudy-day:before {
+	content: "\f002";
+}
+.day-cloudy:before {
+	content: "\f002";
+}
+.partly-cloudy-night:before {
+	content: "\f031";
+}
+.night-cloudy:before {
+	content: "\f031";
+}
+.hail:before {
+	content: "\f015";
+}
+.thunderstorm:before {
+	content: "\f01e";
+}
+.tornado:before {
+	content: "\f056";
+}
